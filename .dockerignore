@@ -1,0 +1,42 @@
+# Git
+.git
+.gitignore
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Documentation
+README.md
+LICENSE
+*.md
+
+# TypeScript
+*.tsbuildinfo
+
+# Test files
+__tests__/
+*.test.ts
+*.spec.ts 

@@ -1,0 +1,21 @@
+{
+  "name": "x-deleter",
+  "version": "1.0.0",
+  "description": "A tool to delete X (Twitter) posts with rate limit handling",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist",
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch run src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "twitter-api-v2": "^1.16.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "bun-types": "latest",
+    "typescript": "^5.3.3"
+  }
+} 
